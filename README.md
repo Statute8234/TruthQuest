@@ -1,4 +1,4 @@
-# save-file
+# TruthQuest
 
 This Python interactive game uses the Ursina game engine to ask and answer questions in a hot-seat format. Players take turns in the hot seat, answering pre-defined questions or adding their own. The game interface includes buttons for truth, truth, and QA, and a timer with a health bar. The game encourages social interaction and conversation among players, providing a simple yet engaging experience.
 
