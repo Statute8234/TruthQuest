@@ -7,7 +7,7 @@ This Python interactive game uses the Ursina game engine to ask and answer quest
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 5/10](#Rating)
+- [Rating: 6/10](#Rating)
 
 # About
 
@@ -23,4 +23,6 @@ random, ursina, ursina.prefabs.health_bar
 
 # Rating
 
-The project showcases basic functionality and interactivity, but needs improvement in the user interface, gameplay mechanics, and visual appeal. Clearer instructions and feedback are needed, and the game mechanics could be expanded to include more variety and depth, such as scoring systems or additional game modes.
+The code for a turn-based game is functional, with player interaction through button clicks and input fields. Randomization adds variability to gameplay, and the code is divided into functions for improved readability. However, there are some cons, such as unclear variable names, use of magic numbers without explanation, overuse of global variables, code duplication, error handling for edge cases, and the absence of audio.
+To improve, the code should be refactored to eliminate duplication and improve clarity, implement error handling for edge cases, and enhance the user interface with better layout and visual elements. Documentation should be added to explain the purpose of each function and section of code, and testing should be conducted under various scenarios to identify and fix bugs or usability issues.
+Lastly, optimization should be made for performance, especially in the update loop, to ensure smooth gameplay even on lower-end devices. By addressing these issues, the code can be improved for a more engaging and enjoyable gaming experience.
